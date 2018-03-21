@@ -1,15 +1,15 @@
 package com.example.angelicagarcia16.actionbarexperiment;
 
 import android.app.ActionBar;
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private static final String TAB_KEY_INDEX = "tab_key";
     private Fragment breakfastFragment;
